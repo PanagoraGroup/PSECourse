@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curso: Relacionamiento con el Sector Privado</title>
+	  <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/estilos.css" rel="stylesheet">
+	<link href="../css/all.min.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<script src="../js/ScrollReveal.js"></script>
+	  <style>
+        .toggler {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: none;
+            text-align: left;
+			color: inherit;
+            position: relative; /* Permite la colocación del ícono en el lado derecho */
+        }
+
+        .icon-circle {
+            border-radius: 50%;
+            position: absolute;
+            right: 10px; /* Ubica el ícono a la derecha del botón */
+            top: 50%;
+            transform: translateY(-50%);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+		  .icon-circle.minus {
+            background-color: white;
+			  color: #BA0C2F;
+        }
+
+    </style>
+
+  </head>
+  <body>
+  
+		<header class="navbar-container menuprin" id="menuprincipal">
+		  <nav class="navbar navbar-expand-lg justify-content-between" style="padding: 0 4%"> 
+			  	<a class="navbar-brand" href="../CursoPSE.html"><img src="../images/logo.png" alt="" class="logo" width="160px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  				</button>
+    			<div class="collapse navbar-collapse" id="navbarNav">
+                	<ul class="navbar-nav ml-auto sub">
+						<li class="nav-item"><a class="nav-link" href="../CursoPSE.html"><img src="../images/home.png" width="20px" alt=""></a><div class="underline"></div></li>
+						<li class="nav-item dropdown"><a class="nav-link2" href="../Modulo1/Modulo1.html">Módulo 1</a><div class="underline"></div>
+							<div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="../Modulo1/Modulo1.html">Introducción</a>
+								<a class="dropdown-item" href="../Modulo1/Sector_Privado.html">El sector privado</a>
+								<a class="dropdown-item" href="../Modulo1/Relacionamiento_Sector_Privado.html">Relacionamiento con el sector privado</a>
+								<a class="dropdown-item" href="../Modulo1/Aportes_Sector_Privado.html">Aportes del sector privado</a>
+								<a class="dropdown-item" href="../Modulo1/Enfoque_Mercado.html">Enfoque de Mercado</a>
+								<a class="dropdown-item" href="../Modulo1/Relacionamiento.html">Relacionamiento: directo, indirecto y de otros tipos</a>
+								<a class="dropdown-item" href="../Modulo1/Subcategorias_Alianzas.html">Subcategorías que integran las alianzas</a>
+								<a class="dropdown-item" href="../Modulo1/Actores_Relacionamiento.html">Actores en el relacionamiento</a>
+								<a class="dropdown-item" href="../Modulo1/Etapas_Relacionamiento.html">Etapas del relacionamiento con el sector privado</a>
+								<a class="dropdown-item" href="../Modulo1/Debida_Diligencia.html">Debida Diligencia</a>
+								<a class="dropdown-item" href="../Modulo1/Ejercicio.html">Ejercicio pedagógico</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown"><a class="nav-link2" href="../Modulo2/Modulo2.html">Módulo 2</a><div class="underline"></div>
+							<div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="../Modulo2/Modulo2.html">Introducción</a>
+								<a class="dropdown-item" href="../Modulo2/Relacionamiento_Directo_Indirecto.html">Relacionamiento directo e indirecto</a>
+								<a class="dropdown-item" href="../Modulo2/Otros_Relacionamientos.html" style="text-wrap: wrap">Otros tipos de relacionamiento</a>
+								<a class="dropdown-item" href="../Modulo2/Definiciones_Fondos_Sector_Privado.html">Definiciones de fondos</a>
+								<a class="dropdown-item" href="../Modulo2/Monitoreo_Alianzas_Fondos.html">Monitoreo de alianzas y fondos</a>
+								<a class="dropdown-item" href="../Modulo2/Criterios.html">Criterios a tener en cuenta</a>
+								<a class="dropdown-item" href="../Modulo2/Ejercicio.html">Ejercicio pedagógico</a>
+							</div>
+						</li>
+						<li class="nav-item active-link"><a class="nav-link activeprin" href="#" style="color: rgba(201,197,197,1.00)">Módulo 3</a><div class="underline"></div></li>
+						<li class="nav-item dropdown"><a class="nav-link" href="../Modulo4/Modulo4.html">Módulo 4</a><div class="underline"></div>
+							<div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="../Modulo4/Modulo4.html">Introducción</a>
+								<a class="dropdown-item" href="../Modulo4/Trabajo_Colaborativo.html">El trabajo colaborativo y su alcance</a>
+								<a class="dropdown-item" href="../Modulo4/Paso1.html">- Paso 1</a>
+								<a class="dropdown-item" href="../Modulo4/Paso2.html">- Paso 2</a>
+								<a class="dropdown-item" href="../Modulo4/Paso3.html">- Paso 3</a>
+								<a class="dropdown-item" href="../Modulo4/Paso4.html">- Paso 4</a>
+								<a class="dropdown-item" href="../Modulo4/Paso5.html">- Paso 5</a>
+								<a class="dropdown-item" href="../Modulo4/Accion_Colectiva.html">La acción colectiva</a>
+								<a class="dropdown-item" href="../Modulo4/CLA.html">Enfoque de Colaboración, Aprendizaje y Adaptación</a>
+								<a class="dropdown-item" href="../Modulo4/Propuesta_Valor.html">Propuestas de valor</a>
+								<a class="dropdown-item" href="../Modulo4/Ejercicio.html">Ejercicio pedagógico</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown"><a class="nav-link" href="../Modulo5/Modulo5.html">Módulo 5</a><div class="underline"></div>
+							<div class="dropdown-menu bg-dark submenu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="../Modulo5/Modulo5.html">Introducción</a>
+								<a class="dropdown-item" href="../Modulo5/Comunicacion.html">1. CDyCS y CCSyC</a>
+								<a class="dropdown-item" href="../Modulo5/CDyCS.html">- De qué se trata el CDyCS</a>
+								<a class="dropdown-item" href="../Modulo5/CCSyC.html">- Modelo de implementación de CCSyC</a>
+								<a class="dropdown-item" href="../Modulo5/Principios_Guia_Comunicacion.html">- Principios generales para guiar la comunicación</a>
+								<a class="dropdown-item" href="../Modulo5/Narracion.html">2. Narración de impacto en USAID</a>
+								<a class="dropdown-item" href="../Modulo5/Narracion_CD.html">- La narración de historias en el contexto de la CD</a>
+								<a class="dropdown-item" href="../Modulo5/Narracion_Efectiva.html">- Narrar las historias efectivas</a>
+								<a class="dropdown-item" href="../Modulo5/Publicar_Historias.html">- Publicar historias de éxito en las plataformas de USAID</a>
+								<a class="dropdown-item" href="../Modulo5/Consideraciones_Eticas.html">- Consideraciones éticas en la narración de historias</a>
+								<a class="dropdown-item" href="../Modulo5/Formatos_Plataformas.html">- Formatos y plataformas para compartir historiass</a>
+								<a class="dropdown-item" href="../Modulo5/Ejercicio.html">Ejercicio pedagógico</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+	  	</header>
+	  
+	<section class="contenido todo">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-10">
+						<section class="row">
+							<div class="col-12">
+								<div class="container primero">
+									<header><h1 class="titulo1"><strong>Ejercicio</strong> pedagógico</h1></header>
+								
+									<div class="container centradov" style="margin: auto; max-width: 800px">
+										<h2 class="titulo2" style="margin-top: 0; padding-top: 0; text-align: left">¿A qué enfoque de relacionamiento corresponde?</h2>
+										<p>Revisemos los conceptos vistos. Puedes revisar nuevamente la información de este módulo para recordar algunos puntos clave de los conceptos abordados.</p>
+										<p>Arrastra el concepto de la izquierda sobre su respectivo ejemplo a la derecha. En caso de ser correcto, dicho concepto y su ejemplo desaparecerán.</p>
+									</div>
+									<div class="container" style="padding: 0; justify-content: center">
+										<div class="row col-12 mt-5" style="margin: auto">
+											<div class="col-3">
+												
+												<ul class="draggable-list">
+													<li class="respuesta" id="s2" draggable="true">Aprendizaje e investigación de mercado</li>
+													<li class="respuesta" id="s5" draggable="true"> Estimular la inversión privada</li>
+													<li class="respuesta" id="s3" draggable="true"> Experticia e innovación</li>
+													<li class="respuesta" id="s6" draggable="true">Fortalecimiento y generación de  espacios propicios para el relacionamiento</li>
+													<li class="respuesta" id="s4" draggable="true">Movilización de recursos del sector privado</li>
+													<li class="respuesta" id="s1" draggable="true">Intercambio de información y alineamiento estratégico </li>
+												</ul>
+											</div>
+											<div class="col-9 justify-content-center">
+												
+												<ul class="draggable-list" style="list-style-type: none">
+													<li class="listadop" id="e1">
+														<button class="toggler vermas" type="button" data-toggle="collapse" data-target="#aparece1" aria-controls="aparece1" aria-expanded="false" aria-label="Toggle">
+																<p>Mejorar mecanismos para fortalecer la coordinación, el intercambio de información y la gestión de conocimiento para prevenir violaciones de derechos humanos.</p>
+																<div class="icon-circle plus" style="height: 13px; width: 13px"><i class="fas fa-plus"></i></div>
+															</button>
+															<div class="draggable-list collapse" id="aparece1">
+															<p class="descripcion">
+																La Actividad Derechos Humanos para la Paz, contribuirá a mejorar la paz y estabilidad en Colombia aumentando la efectividad de los sistemas y actores nacionales, regionales y locales para prevenir y dar respuesta a las violaciones de derechos humanos. La Fundación Ideas para la Paz, Fundación  Paz y Reconciliación, Instituto de Estudios para el Desarrollo y la Paz, Pastoral Social de Colombia y la Ruta Pacífica de las Mujeres trabajarán con USAID en cinco regiones del país con prevalencia de violaciones de derechos humanos: Bajo Cauca, Caquetá, Catatumbo, Norte de Cauca y Nariño. Entre los resultados previstos se destacan: a). Fortalecimiento de los sistemas de información y gestión de datos sobre derechos humanos. b). Aumento de capacidades de actores no gubernamentales para prevenir y rendir cuentas frente a las violaciones de los derechos humanos. y c). Robustecimiento de la respuesta institucional para la prevención, protección y respuesta en materia de derechos humanos.   
+															</p> 
+														</div> 
+													</li>
+													
+													<li class="listadop" id="e2">
+														<button class="toggler vermas" type="button" data-toggle="collapse" data-target="#aparece2" aria-controls="aparece2" aria-expanded="false" aria-label="Toggle">
+																<p>Entender y abordar las necesidades del sector agrícola colombiano y de las comunidades rurales.</p>
+																<div class="icon-circle plus" style="height: 13px; width: 13px"><i class="fas fa-plus"></i></div>
+															</button>
+														  <div class="draggable-list collapse" id="aparece2">
+															<p class="descripcion">
+																El Fondo de Agronegocios Colombia promovió  el crecimiento económico mediante el fortalecimiento del sector agrícola  a partir de tres acciones centrales: a). La mejora de la calidad de vida de las comunidades rurales, con base en la generación de empleos y aumento de ingresos. Esto se realizó a partir de la comprensión de las capacidades  y potencialidades de las comunidades locales que habitan los territorios agrícolas y las necesidades de inversión en las pequeñas y medianas empresas para el desarrollo agrícola rural b) La  movilización de capital que permitió el involucramiento de inversionistas interesados en empresas que tienen alto impacto social y ambiental. y c). La asistencia técnica para fomentar la participación e involucramiento de las comunidades en las cadenas de valor rurales y acceder a nuevos mercados nacionales e internacionales.
+															</p>
+														
+														</div>
+													</li>
+													<li class="listadop" id="e3">
+														<button class="toggler vermas" type="button" data-toggle="collapse" data-target="#aparece3" aria-controls="aparece3" aria-expanded="false" aria-label="Toggle">
+																<p style="padding-right: 3rem">Aprovechar la experiencia del sector privado para mejorar la capacidad de respuesta ante  la pandemia causada por COVID-19.</p>
+																<div class="icon-circle plus" style="height: 13px; width: 13px"><i class="fas fa-plus"></i></div>
+															</button>
+														<div class="draggable-list collapse" id="aparece3">
+															<p class="descripcion">
+																El Programa Comunidades Saludables de USAID/Colombia apoyó al Ministerio de Salud y Protección Social (MSPS) y a las entidades territoriales para mejorar las capacidades de respuesta ante los retos en salud pública que trajo consigo el COVID-19.<br/>
+																En el marco del Programa se desarrolló la innovación tecnológica “Mi Paciente”. Su diseño implicó un  trabajo conjunto entre INNpulsa Colombia y Connect Bogotá Región, corporación de carácter privado y de naturaleza civil. Además, para  el diseño de la innovación tecnológica, se adelantó un trabajo colaborativo con una red de empresas privadas, universidades y agencias gubernamentales. El relacionamiento con el sector privado y otros actores permitió la implementación de este sistema de innovación para el monitoreo remoto de pacientes, y la trazabilidad de casos COVID-19 en población migrante y población de acogida. 
+															</p>
+															
+														</div>
+													</li>
+													<li class="listadop" id="e4">
+														<button class="toggler vermas" type="button" data-toggle="collapse" data-target="#aparece4" aria-controls="aparece4" aria-expanded="false" aria-label="Toggle">
+																<p style="padding-right: 3rem">Fortalecer las cadenas del valor del cacao, capacidades y condiciones de vida de los productores.</p>
+																<div class="icon-circle plus" style="height: 13px; width: 13px"><i class="fas fa-plus"></i></div>
+															</button>
+														<div class="draggable-list collapse" id="aparece4">
+															<p class="descripcion" style="font-size: 13px; font-weight: 500">
+																La Alianza para el Desarrollo Global “El Efecto Cacao” se implementa a partir de un acuerdo de cooperación entre USAID,  Fundación Luker, Fundación Saldarriaga-Concha, Universidad EAFIT y la Iniciativa de Desarrollo Sostenible IDH. Estas organizaciones aportaron 38.5 millones de dólares para mejorar los estándares de calidad y niveles de productividad. Este Programa fomenta la productividad, asociatividad, resiliencia, educación, empoderamiento y bienestar de las comunidades campesinas. 
+															</p>
+															
+														</div>
+													</li>
+													<li class="listadop" id="e5">
+														<button class="toggler vermas" type="button" data-toggle="collapse" data-target="#aparece5" aria-controls="aparece5" aria-expanded="false" aria-label="Toggle">
+																<p style="padding-right: 3rem">Mejorar la condiciones de los hogares rurales y responder a los  compromisos de los acuerdos de paz.</p>
+																<div class="icon-circle plus" style="height: 13px; width: 13px"><i class="fas fa-plus"></i></div>
+															</button>
+														<div class="draggable-list collapse" id="aparece5">
+															<p class="descripcion">
+																El Programa Nuestra Tierra Próspera de USAID trabaja con el gobierno de Colombia y las administraciones locales para: a). Fortalecer sus capacidades para gestionar la tierra y crear oportunidades económicas legales en los territorios de: Bajo Cauca, Catatumbo, Meta, Montes de María, Norte del Cauca, Sur del Tolima, Tumaco y el Parque Nacional Natural Serranía del Chiribiquete. b). Fomentar la conformación de Alianzas Público-Privadas para fortalecer las cadenas de valor locales y estimular el desarrollo económico rural.  Y c). Movilizar los recursos necesarios para mejorar la prestación de servicios públicos.
+															</p>
+															
+														</div>
+													</li>
+													<li class="listadop" id="e6">
+														<button class="toggler vermas" type="button" data-toggle="collapse" data-target="#aparece6" aria-controls="aparece6" aria-expanded="false" aria-label="Toggle">
+																<p style="padding-right: 3rem">Mejorar la competitividad de las organizaciones de productores de café, cacao y lácteos para conectarse efectivamente con los mercados nacionales e internacionales.</p>
+																<div class="icon-circle plus" style="height: 13px; width: 13px"><i class="fas fa-plus"></i></div>
+															</button>
+														<div class="draggable-list collapse" id="aparece6">
+															<p class="descripcion">
+																La Actividad de Alianzas Comerciales (PMA, por sus siglas en inglés) apoyó, durante 2021, las actividades adelantadas por el Gobierno Nacional en el marco del programa ‘Coseche y Venda a la Fija’, a partir de la asistencia técnica e inversión predial para  mejorar los índices de productividad de las familias de pequeños agricultores ubicadas en  los departamentos de: Antioquia, Bolívar, Caquetá, Cauca, Córdoba, Huila, Meta, Nariño, Sucre, Tolima y Valle del Cauca. Además, buscó generar interés en productores nacionales, regionales y locales, fundaciones y universidades, negocios privados, y organizaciones del sector privado para fortalecer y construir cadenas de valor sostenibles y orientadas al comercio. 
+															</p>
+															
+														</div>
+													</li>
+													
+													
+												</ul>
+											</div>
+											
+										</div>
+										<section class="contazul" id="endMessage">
+											<h2 style="color: white; text-shadow: 2px 2px 5px black; margin-top: 0">¡Bien hecho!</h2>
+												<h2 class="titulo2 text-center" style="color: rgb(167,198,237); margin-top: 0">Has realizado con éxito este ejercicio</h2>
+												<h3 class="text-white text-center mt5">Recuerda que...</h3>
+												
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2t">Concepto</div>
+													<div class="col-7 listado2t">Ejemplo</div>
+												</div>
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2">Intercambio de información y alineamiento estratégico</div>
+													<div class="col-7 listado2">Mejorar mecanismos para fortalecer la  coordinación, el intercambio de información y la gestión de conocimiento  para prevenir violaciones de derechos humanos.</div>
+												</div>
+												<hr width="90%" style="margin: auto" color="#646464">
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2">Aprendizaje e investigación de mercado</div>
+													<div class="col-7 listado2">Entender y abordar las necesidades del sector agrícola colombiano y de las comunidades rurales.</div>
+												</div>
+												<hr width="90%" style="margin: auto" color="#646464">
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2">Experticia e innovación</div>
+													<div class="col-7 listado2">Aprovechar la experiencia del sector privado para mejorar la capacidad de respuesta ante la pandemia causada por COVID-19.</div>
+												</div>
+												<hr width="90%" style="margin: auto" color="#646464">
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2">Movilización de recursos del sector privado</div>
+													<div class="col-7 listado2">Fortalecer las cadenas del valor del cacao, capacidades y condiciones de vida de los productores.</div>
+												</div>
+												<hr width="90%" style="margin: auto" color="#646464">
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2">Estimular la inversión privada</div>
+													<div class="col-7 listado2">Mejorar la condiciones de los hogares rurales y responder a los compromisos de los acuerdos de paz.</div>
+												</div>
+												<hr width="90%" style="margin: auto" color="#646464">
+												<div class="row justify-content-center">
+													<div class="col-4 respuesta2">Fortalecimiento y generación de  espacios propicios para el relacionamiento</div>
+													<div class="col-7 listado2">Mejorar la competitividad de las organizaciones de productores de café, cacao y lácteos para conectarse efectivamente con los mercados nacionales e internacionales.</div>
+												</div>
+												<hr width="90%" style="margin: auto" color="#646464">
+												
+													
+												
+												
+												<button class="mt-5" type="button" style="outline: none; border: none"><a class="btn btn-outline-darkred" href="../Modulo4/Modulo4.html" style="line: none"><h5 style="font-size: 1rem; font-weight: 600; padding: 0 1rem">AVANZA AL MÓDULO 4</h5></a></button>
+												
+											
+										
+										
+											
+											</section>
+
+										
+								</div>
+	  						</div>
+							</div>
+						</section>
+						<section>
+							<div class="container col-12 mt-5 mb-5">
+								<button class="button3" type="button" style="padding-right: 0.5rem"><a class="btn2" href="Monitoreo_Evaluacion_Aprendizaje.html"><img src="../images/bt-02.png" alt="" width="30px">ANTERIOR</a></button>
+          					</div>
+						</section>
+						
+					</div>
+					<div class="col-2 fondoml">
+							<div class="modulo-menu">Módulo 3. Los principios que rigen el relacionamiento</div>
+							<div><div class="modulo-menu-cont">CONTENIDO</div>
+									<nav class="nav">
+										<ul class="nav flex-column">
+											<li class="menul"><a class="nav-linkml" href="Modulo3.html">Introducción</a></li>
+											<li class="menul"><a class="nav-linkml" href="Principios_Relacionamiento_SP.html">¿Cuáles son los principios de relacionamiento con el sector privado?</a></li>
+											<li class="menul"><a class="nav-linkml" href="Principio1.html">Principio 1. Relacionamiento temprano y continuo</a></li>
+											<li class="menul"><a class="nav-linkml" href="Principio2.html">Principio 2. Incentivar y valorar el relacionamiento con el sector privado a través del ciclo programático</a></li>
+											<li class="menul"><a class="nav-linkml" href="Principio3.html">Principio 3. Expandir los enfoques y herramientas de USAID/Colombia para desbloquear el potencial del sector privado</a></li>
+											<li class="menul"><a class="nav-linkml" href="Principio4.html">Principio 4. Construir y actuar con base en la evidencia sobre lo que funciona o no en el relacionamiento con el sector privado</a></li>
+											<li class="menul"><a class="nav-linkml" href="Monitoreo_Evaluacion_Aprendizaje.html">Monitoreo, evaluación y aprendizaje para fortalecer la toma de decisiones basada en evidencia y la colaboración con el sector privado</a></li>
+											<li class="menulactive">Ejercicio pedagógico</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="modulo-menu-cont">RECURSOS</div>
+									<nav class="nav">							
+										<ul class="nav flex-column">
+											<li class="menul"><a class="nav-linkml" href="Referencias_M3.html" target="_blank"><img class="menul-recursos" src="../images/icon7.png" alt="" width="15%">Referencias</a></li>
+											<li class="menul"><a class="nav-linkml" href="../recursos/Contenido_M3.pdf" target="_blank"><img class="menul-recursos" src="../images/icon8.png" alt="" width="15%">Descargar contenido</a></li>
+										</ul>
+									</nav>
+						<div class="modulo-menu-cont">CONTACTO</div>
+							<nav class="nav" style="margin-bottom: 2rem">							
+										<ul class="nav flex-column">
+											<li class="menul"><a class="nav-linkml" href="mailto:calban@usaid.gov" target="_blank"><img class="menul-recursos" src="../images/mail.png" alt="" width="18%">Contacta al Equipo de PSE</a></li>
+										</ul>
+									</nav>
+						</div>
+	  			</div>
+			</div>
+	</section>	
+					
+		
+	  
+
+
+    <footer>
+    </footer>
+
+
+	
+	
+
+
+
+	
+	
+	  
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+	  <script src="../js/js.js"></script>
+	<script type="text/javascript"></script>
+	 <script src="../js/main.js"></script>
+
+	
+	
+	<script>
+		const draggableListItem = document.querySelectorAll('.draggable-list li');
+		const endMessage=document.getElementById('endMessage');
+		const titulotabla=document.getElementById('titulotabla');
+		const titulotabla2=document.getElementById('titulotabla2');
+		
+		let selectedId;
+		
+		let dropTargetId;
+		
+		let matchingCounter=0;
+		
+		addEventListeners();
+		
+		function dragStart(){
+			selectedId = this.id;
+		}
+		
+		function dragEnter(){
+			this.classList.add('over');
+		}
+		
+		function dragLeave(){
+			this.classList.remove('over');
+		}
+		
+		function dragOver(ev){
+			ev.preventDefault();
+		}
+		
+		function dragDrop(){
+			dropTargetId=this.id;
+			
+			if (checkForMatch(selectedId, dropTargetId)){
+				document.getElementById(selectedId).style.display ='none';
+				document.getElementById(dropTargetId).style.display ='none';
+				matchingCounter++;
+			}
+			
+			if (matchingCounter === 6){
+				endMessage.style.display = 'block';
+			}
+			
+			
+			this.classList.remove('over');
+		}
+		
+		function checkForMatch(selected, dropTarget){
+			switch(selected){
+				case 's1':
+					return dropTarget === 'e1' ? true : false;
+					
+				case 's2':
+					return dropTarget === 'e2' ? true : false;
+					
+				case 's3':
+					return dropTarget === 'e3' ? true : false;
+					
+				case 's4':
+					return dropTarget === 'e4' ? true : false;
+					
+				case 's5':
+					return dropTarget === 'e5' ? true : false;
+					
+				case 's6':
+					return dropTarget === 'e6' ? true : false;
+					
+				default:
+					return false;
+			}
+		}
+		
+		
+		function addEventListeners() {
+			draggableListItem.forEach (item => {
+				item.addEventListener('dragstart', dragStart);
+				item.addEventListener('dragenter', dragEnter);
+				item.addEventListener('drop', dragDrop);
+				item.addEventListener('dragover', dragOver);
+				item.addEventListener('dragleave', dragLeave);
+				
+		})
+		}
+			
+	
+	
+	</script>	
+
+	
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        // Cerrar otros colapsables al abrir uno nuevo
+        $('.collapse').on('show.bs.collapse', function() {
+            $('.collapse').not(this).collapse('hide');
+        });
+
+        // Cambiar el ícono y color cuando se expande y se colapsa
+        $('.collapse').on('shown.bs.collapse', function() {
+            $(this).prev('.toggler').find('.icon-circle')
+                .removeClass('plus').addClass('minus')
+                .html('<i class="fas fa-minus"></i>');
+        }).on('hidden.bs.collapse', function() {
+            $(this).prev('.toggler').find('.icon-circle')
+                .removeClass('minus').addClass('plus')
+                .html('<i class="fas fa-plus"></i>');
+        });
+    });
+</script>
+	
+	
+	
+  </body>
+</html>
